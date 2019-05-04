@@ -1,6 +1,6 @@
 <?php
     include 'Avenger.php';
-    class SpiderMan{
+    class SpiderMan extends Avenger{
         public function moviefive(){
             echo "SpiderMan has four Sequel";
         }
