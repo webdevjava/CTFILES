@@ -1,7 +1,7 @@
 <?php
 
     include 'Avenger.php';
-    class CaptainAmerica{
+    class CaptainAmerica extends Avenger{
         public function moviefour(){
             echo "CaptainAmerica is not Captain Planet";
         }
